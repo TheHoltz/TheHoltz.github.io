@@ -1,1 +1,810 @@
-Olá mundo
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+    />
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css"
+    />
+  </head>
+  <style>
+    .btnshadow {
+      transition: all 0.4s !important;
+    }
+
+    .btnshadow:hover {
+      box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.3) !important;
+      transform: translateY(-5px) !important;
+      background-color: rgb(253, 135, 8) !important;
+      color: white !important;
+    }
+
+    .hovertransitiom {
+      transition: all 0.4s !important;
+    }
+
+    .hoverscale:hover {
+      transform: scale(1.1) !important;
+    }
+
+    .hoverscale:hover:not(:hover) {
+      transform: scale(0.9) !important;
+    }
+
+    .hovershadow {
+      border-radius: 1rem !important;
+    }
+    .hovershadow:hover {
+      background-color: rgb(253, 135, 8) !important;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
+      transform: translateY(-10px) !important;
+    }
+    .name {
+      transition: all 0.4s !important;
+    }
+    .hovershadow:hover .name {
+      color: white !important;
+    }
+    .sigrid-face {
+      transition: all 0.2s;
+    }
+    .sigrid-face:hover {
+      transform: rotate(-5deg) scale(1.05) !important;
+    }
+    .puzzle-img {
+      height: 306px !important;
+      width: 441px !important;
+      transition: all 0.2s;
+    }
+    .puzzle-img:hover {
+      transform: scale(1.05) rotate(2deg) !important;
+    }
+  </style>
+  <body>
+    <header
+      class="d-lg-flex justify-content-lg-center align-items-lg-center masthead text-center text-white"
+      style="
+        background: linear-gradient(0deg, #fd8900, #ee0979);
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+      "
+    >
+      <div class="masthead-content">
+        <div class="container">
+          <img
+            data-aos="zoom-in"
+            src="assets/img/desafio.png"
+            style="width: 50%; margin-bottom: 67px;"
+          />
+          <p
+            class="text-center"
+            data-aos="fade"
+            style="
+              padding: 0px;
+              padding-top: 40px;
+              padding-bottom: 40px;
+              color: rgb(244, 244, 244);
+              font-size: 27px;
+              font-family: Catamaran;
+              margin-bottom: 0;
+            "
+          >
+            O <strong>Desafio SigQuali</strong> vai ampliar o conhecimento não
+            só do escritório da Qualidade como de todos os profissionais que
+            usam a plataforma na instituição de saúde. O
+            <strong>
+              Desafio SigQuali
+            </strong>
+            contribuirá com a construção do engajamento, alinhando processos e
+            resultados de melhoria contínua.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- <section>
+      <div
+        class="d-lg-flex justify-content-lg-center align-items-lg-center highlight-blue"
+        style="
+          margin-top: 70px;
+          background: rgb(255, 255, 255);
+          text-align: center;
+        "
+      >
+        <div class="container" data-aos="fade-right">
+          <p
+            class="text-center"
+            style="
+              font-size: 28px;
+              font-family: Catamaran;
+              padding: 0px;
+              padding-top: 20px;
+              padding-bottom: 20px;
+              color: rgb(52, 52, 52);
+              margin-bottom: 0px;
+            "
+          >
+            Com o intuito de ampliar a capacitação de gestores e profissionais
+            responsáveis pelo setor da Qualidade nas organizações de saúde
+            criamos o Desafio SigQuali.
+          </p>
+        </div>
+      </div>
+    </section> -->
+
+    <section>
+      <div
+        class="d-lg-flex justify-content-lg-center align-items-lg-center highlight-blue"
+        style="
+          margin-top: 20px;
+          margin-bottom: 60px;
+          height: 100vh;
+          background-color: white;
+          text-align: center;
+        "
+      >
+        <div class="container" data-aos="fade-up">
+          <img
+            src="https://i.imgur.com/Nhg5KkS.png"
+            class="sigrid-face"
+            alt="Sigrid SigQuali"
+          />
+          <p
+            class="text-center"
+            style="
+              font-size: 28px;
+              font-family: Catamaran;
+              padding: 0px;
+              padding-top: 40px;
+              padding-bottom: 40px;
+              color: rgb(52, 52, 52);
+              margin-bottom: 0px;
+            "
+          >
+            Olá, eu sou a Sigrid! <br />Em tempos de incerteza, é muito
+            importante aprendermos a ser inovadores. E isso inclui descobrirmos
+            formas produtivas de usar as ferramentas que temos à disposição para
+            facilitar o nosso dia a dia! Nesse desafio iremos construir juntos
+            um conhecimento novo e criativo sobre o SigQuali.
+            <br /><br /><strong>Você topa?</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="d-lg-flex justify-content-lg-center align-items-lg-center"
+        style="
+          text-align: center;
+          background-color: #fd8702;
+          color: white;
+          margin-bottom: 60px;
+        "
+      >
+        <div class="container" data-aos="fade-up">
+          <p
+            class="text-center"
+            style="
+              font-size: 27px;
+              padding: 80px;
+              font-family: Catamaran;
+              margin-bottom: 0px;
+            "
+          >
+            Cada organização é composta por um time que trabalhará integrado
+            nesta jornada de aprendizado. As atividades de engajamento,
+            alinhamento, aprendizado e integração serão pontuadas em competição
+            por mais conhecimento na plataforma.
+            <br />
+            O Grupo IAG Saúde te convida a participar Desafio SigQuali.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container" style="padding-top: 45px;">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-1">
+            <img
+              src="https://i.imgur.com/NEPLbso.png"
+              class="puzzle-img"
+              onmouseover="hover(this);"
+              onmouseout="unhover(this);"
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5">
+              <h2
+                data-aos="fade"
+                class="display-4"
+                style="color: rgb(52, 52, 52);"
+              >
+                <strong>DESAFIO É <br />OPORTUNIDADE</strong>
+              </h2>
+              <p
+                data-aos="fade"
+                data-aos-delay="50"
+                style="
+                  font-size: 19px;
+                  font-family: Roboto;
+                  color: rgb(111, 111, 111);
+                "
+              >
+                Com capacitação à distância, o Desafio SigQuali é uma<strong>
+                  oportunidade de aprimorar os conhecimentos sobre a plataforma
+                  de gestão da qualidade na saúde</strong
+                >, além de aperfeiçoar a usabilidade na ferramenta presente em
+                135 organizações de saúde.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="testimonials-clean"
+      style="background-color: rgb(255, 255, 255);"
+    >
+      <div class="container">
+        <div class="intro"></div>
+        <div class="row people" style="padding-top: 60px;">
+          <div
+            class="col-md-6 col-lg-3 flex-row-reverse item hovertransitiom hoverscale"
+            data-aos="fade-left"
+          >
+            <div class="box" style="background-color: rgb(248, 248, 248);">
+              <p class="description">
+                Aenean tortor est, vulputate quis leo in, vehicula rhoncus
+                lacus. Praesent aliquam in tellus eu gravida. Aliquam varius
+                finibus est.
+              </p>
+            </div>
+            <div class="author">
+              <img class="rounded-circle" src="assets/img/1.jpg" />
+              <h5 class="name">Ben Johnson</h5>
+              <p class="title">CEO of Company Inc.</p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 item hovertransitiom hoverscale"
+            data-aos="fade-left"
+            data-aos-delay="50"
+          >
+            <div class="box" style="background-color: rgb(248, 248, 248);">
+              <p class="description">
+                Praesent aliquam in tellus eu gravida. Aliquam varius finibus
+                est, et interdum justo suscipit id.
+              </p>
+            </div>
+            <div class="author">
+              <img class="rounded-circle" src="assets/img/3.jpg" />
+              <h5 class="name">Carl Kent</h5>
+              <p class="title">Founder of Style Co.</p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 item hovertransitiom hoverscale"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <div class="box" style="background-color: rgb(248, 248, 248);">
+              <p class="description">
+                Aliquam varius finibus est, et interdum justo suscipit.
+                Vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam
+                in tellus eu.
+              </p>
+            </div>
+            <div class="author">
+              <img class="rounded-circle" src="assets/img/2.jpg" />
+              <h5 class="name">Emily Clark</h5>
+              <p class="title">Owner of Creative Ltd.</p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 item hovertransitiom hoverscale"
+            data-aos="fade-left"
+            data-aos-delay="150"
+          >
+            <div class="box" style="background-color: rgb(248, 248, 248);">
+              <p class="description">
+                Aliquam varius finibus est, et interdum justo suscipit.
+                Vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam
+                in tellus eu.
+              </p>
+            </div>
+            <div class="author">
+              <img class="rounded-circle" src="assets/img/03.jpg" />
+              <h5 class="name">John Doe</h5>
+              <p class="title">Owner of Creative Ltd.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="features-boxed"
+      style="
+        background: linear-gradient(0deg, #f9f9f9 0, #fff 100%);
+        margin-top: 150px;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h2
+              class="text-left"
+              style="
+                color: rgb(52, 52, 52);
+                font-size: 56px;
+                font-weight: normal;
+              "
+            >
+              POR QUE <br />PARTICIPAR DO <br />DESAFIO SIGQUALI?
+            </h2>
+          </div>
+          <div
+            class="col d-lg-flex justify-content-lg-center align-items-lg-center"
+          >
+            <button
+              class="btn btnshadow"
+              data-aos="flip-up"
+              type="button"
+              style="
+                background-color: rgb(255, 255, 255);
+                color: rgb(57, 57, 57);
+                font-size: 16px;
+                padding-top: 16px;
+                padding-right: 42px;
+                padding-bottom: 16px;
+                padding-left: 42px;
+                font-family: Roboto;
+                box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+              "
+            >
+              <strong>Acessar edital do Desafio</strong>
+            </button>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center features"
+          style="padding-top: 10px;"
+        >
+          <div class="col-sm-6 col-md-5 col-lg-4 item">
+            <div
+              class="border rounded border-white d-lg-flex flex-column justify-content-lg-center box hovertransitiom hovershadow"
+              data-aos="fade-up"
+              style="
+                background-color: #ffffff;
+                height: 100%;
+                padding-right: 20px;
+                padding-bottom: 30px;
+                padding-left: 20px;
+              "
+            >
+              <h3
+                class="name"
+                style="font-size: 28px; color: rgb(253, 135, 8);"
+              >
+                Atualizar
+              </h3>
+              <p
+                class="description"
+                style="
+                  font-family: roboto;
+                  font-size: 18px;
+                  font-weight: lighter;
+                  color: rgb(111, 111, 111);
+                "
+              >
+                Para se atualizar com as principais normas certificáveis na área
+                da saúde como: ONA, ISO 9001:2015 e RN 452.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-5 col-lg-4 item">
+            <div
+              class="border rounded border-white d-lg-flex flex-column justify-content-lg-center box hovertransitiom hovershadow"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              style="
+                background-color: #ffffff;
+                height: 100%;
+                padding-right: 20px;
+                padding-left: 20px;
+              "
+            >
+              <h3
+                class="name"
+                style="font-size: 28px; color: rgb(253, 135, 8);"
+              >
+                Melhorar
+              </h3>
+              <p
+                class="description"
+                style="
+                  font-family: Roboto;
+                  font-size: 18px;
+                  color: rgb(111, 111, 111);
+                "
+              >
+                Para melhoria no gerenciamento de processos na saúde.<br /><br />
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-5 col-lg-4 item">
+            <div
+              class="d-lg-flex flex-column justify-content-lg-center box hovertransitiom hovershadow"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              style="
+                background-color: #ffffff;
+                height: 100%;
+                padding-right: 20px;
+                padding-left: 20px;
+              "
+            >
+              <h3
+                class="name"
+                style="font-size: 28px; color: rgb(253, 135, 8);"
+              >
+                Agir
+              </h3>
+              <p
+                class="description"
+                style="
+                  font-size: 18px;
+                  font-family: Roboto;
+                  color: rgb(111, 111, 111);
+                "
+              >
+                Para planejamento, gestão, monitoramento e implementação de
+                ações de melhoria continuada nas organizações.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section
+      style="
+        background: linear-gradient(0deg, #f9f9f9 0, #fff 100%);
+        padding-bottom: 70px;
+      "
+    >
+      <div class="container">
+        <div class="row" style="padding-top: 80px;">
+          <div class="col-lg-12">
+            <h2
+              class="text-center"
+              style="
+                color: rgb(52, 52, 52);
+                font-size: 56px;
+                font-weight: normal;
+                padding-bottom: 50px;
+              "
+            >
+              PARA PARTICIPAR <br />É MUITO SIMPLES
+            </h2>
+          </div>
+          <div
+            class="col-sm-3 text-center"
+            style="display: flex; align-items: center; flex-direction: column;"
+          >
+            <div
+              style="
+                width: 50px;
+                height: 50px;
+                background-color: #fd8702;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 13px;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 20px;
+              "
+            >
+              1
+            </div>
+            <p style="color: rgb(111, 111, 111);">
+              Conheça o regulamento.
+            </p>
+          </div>
+          <div
+            class="col-sm-3 text-center"
+            style="display: flex; align-items: center; flex-direction: column;"
+          >
+            <div
+              style="
+                width: 50px;
+                height: 50px;
+                background-color: #fd8702;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 13px;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 20px;
+              "
+            >
+              2
+            </div>
+            <p style="color: rgb(111, 111, 111);">
+              Faça sua inscrição no desafio.
+            </p>
+          </div>
+          <div
+            class="col-sm-3 text-center"
+            style="display: flex; align-items: center; flex-direction: column;"
+          >
+            <div
+              style="
+                width: 50px;
+                height: 50px;
+                background-color: #fd8702;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 13px;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 20px;
+              "
+            >
+              3
+            </div>
+            <p style="color: rgb(111, 111, 111);">
+              Conecte-se na plataforma de ensino.
+            </p>
+          </div>
+          <div
+            class="col-sm-3 text-center"
+            style="display: flex; align-items: center; flex-direction: column;"
+          >
+            <div
+              style="
+                width: 50px;
+                height: 50px;
+                background-color: #fd8702;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 13px;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 20px;
+              "
+            >
+              4
+            </div>
+            <p style="color: rgb(111, 111, 111);">
+              Acesse os conteúdos dos módulos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-bottom: 112px; margin-top: 70px;">
+      <div class="container" style="padding-top: 0px;">
+        <div class="row flex-row align-items-center">
+          <div class="col-lg-7 order-lg-1">
+            <div
+              class="d-lg-flex justify-content-lg-center align-items-lg-center p-5"
+            >
+              <h2
+                data-aos="fade"
+                class="display-4"
+                style="color: rgb(52, 52, 52);"
+              >
+                <strong>COM O DESAFIO</strong><br /><strong
+                  >SIGQUALI VOCÊ</strong
+                ><br /><strong>PODERÁ</strong><br />
+              </h2>
+            </div>
+          </div>
+          <div class="col">
+            <img
+              class="d-lg-flex justify-content-lg-center align-items-lg-center"
+              data-aos="slide-up"
+              data-aos-delay="100"
+              src="assets/img/rocket.png"
+              style="width: 100%;"
+            />
+          </div>
+        </div>
+        <div
+          class="row d-lg-flex flex-row justify-content-lg-center"
+          style="margin-top: 60px;"
+        >
+          <div class="col">
+            <div
+              class="card border-white"
+              style="margin-bottom: 20px; height: 100%;"
+            >
+              <div
+                class="card-body d-lg-flex justify-content-lg-center align-items-lg-center"
+                data-aos="fade-right"
+                style="margin-bottom: 20;"
+              >
+                <h4
+                  class="text-center card-title"
+                  style="
+                    font-family: Roboto;
+                    font-weight: normal;
+                    margin-bottom: 0;
+                    color: rgb(111, 111, 111);
+                    font-size: 20px;
+                  "
+                >
+                  Acessar os módulos da plataforma na íntegra.<br />
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card border-white"
+              style="margin-bottom: 20px; height: 100%;"
+            >
+              <div
+                class="card-body d-lg-flex justify-content-lg-center align-items-lg-center"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                style="height: 100%;"
+              >
+                <h4
+                  class="text-center card-title"
+                  style="
+                    font-family: Roboto;
+                    margin-bottom: 0;
+                    color: rgb(111, 111, 111);
+                    font-size: 20px;
+                  "
+                >
+                  Tirar dúvidas técnicas sobre o sistema.<br />
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-white" style="height: 100%;">
+              <div
+                class="card-body d-lg-flex justify-content-lg-center align-items-lg-center"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                <h4
+                  class="text-center card-title"
+                  style="
+                    font-family: Roboto;
+                    margin-bottom: 0;
+                    color: rgb(111, 111, 111);
+                    font-size: 20px;
+                  "
+                >
+                  Acompanhar vídeo-aulas com linguagem simples e assertiva.<br />
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      data-aos="fade"
+      class="highlight-blue"
+      style="
+        background-color: #fd8900; /*clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);*/
+        clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+        padding-top: 90px;
+        padding-bottom: 110px;
+      "
+    >
+      <div class="container">
+        <div class="intro">
+          <p
+            class="text-center"
+            style="
+              font-family: roboto;
+              font-size: 18px;
+              color: rgb(245, 245, 245);
+            "
+          >
+            Os três primeiros colocados no Desafio SigQuali serão contemplados
+            com <strong>bolsas de estudos</strong> parciais no curso de
+            [informar o nome do curso e porcentagem das bolsas]
+          </p>
+        </div>
+        <div class="buttons">
+          <a
+            class="btn"
+            role="button"
+            data-aos="flip-up"
+            href="#"
+            style="
+              font-size: 24px;
+              color: rgb(253, 137, 0);
+              background-color: #ffffff;
+            "
+            >Inscrever-se já</a
+          >
+        </div>
+      </div>
+    </div>
+    <div
+      class="highlight-blue"
+      style="background-color: #ffffff; padding-bottom: 10px;"
+    >
+      <div class="container">
+        <div
+          class="text-center d-lg-flex flex-column align-items-center justify-content-lg-center intro"
+        >
+          <p
+            class="text-center"
+            style="
+              font-family: roboto;
+              font-size: 16px;
+              color: rgb(111, 111, 111);
+            "
+          >
+            Não perca a chance de conhecer, ainda mais, a plataforma de gestão
+            da qualidade que vem revolucionando os processos na saúde.<br /><br />Em
+            caso de dúvidas, fale com a gente<br /><strong>
+              <a
+                href="https://www.sigquali.com.br/contato"
+                style="color: #fd8900;"
+                target="_blank"
+                >www.sigquali.com.br/contato</a
+              ></strong
+            ><br /><br />
+          </p>
+          <img
+            class="d-lg-flex justify-content-lg-center"
+            src="assets/img/2020-05-06.png"
+            style="width: 60%;"
+          />
+        </div>
+
+        <div class="buttons"></div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script>
+      function hover(element) {
+        element.setAttribute("src", "https://i.imgur.com/AGcmSX8.png");
+      }
+
+      function unhover(element) {
+        element.setAttribute("src", "https://i.imgur.com/NEPLbso.png");
+      }
+    </script>
+  </body>
+</html>
